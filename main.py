@@ -10,13 +10,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 time.sleep(3)
 
-try:
-    from webdriver_manager.chrome import ChromeDriverManager
-    print("webdriver-manager is installed correctly.")
-except ModuleNotFoundError:
-    print("ModuleNotFoundError: webdriver-manager is not found.")
-
-
 # Go to webpage
 driver.get("https://practicetestautomation.com/practice-test-login/")
 time.sleep(2)
