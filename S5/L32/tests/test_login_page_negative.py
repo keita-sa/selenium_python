@@ -6,8 +6,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-# Before the test, the code is executed up to the yield statement,
-# and after the test, it's executed after the yield statement.
+# Before the test, the code is executed up to the yield statement, and after the test, it's executed after the yield statement.
 @pytest.fixture()
 def driver():
     print("Creating chrome driver")
