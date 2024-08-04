@@ -1,4 +1,4 @@
-[__fixture__](https://docs.pytest.org/en/stable/how-to/fixtures.html#yield-fixtures-recommended) \
+[__fixture__](https://docs.pytest.org/en/stable/how-to/fixtures.html#yield-fixtures-recommended) 
 
 
 [__conftest__](https://docs.pytest.org/en/stable/reference/fixtures.html#conftest-py-sharing-fixtures-across-multiple-files)\
