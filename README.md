@@ -1,3 +1,6 @@
+[__fixture__](https://docs.pytest.org/en/stable/how-to/fixtures.html#yield-fixtures-recommended)\
+
+
 [__conftest__](https://docs.pytest.org/en/stable/reference/fixtures.html#conftest-py-sharing-fixtures-across-multiple-files)\
 The `conftest.py` file serves as a means of providing fixtures for an entire directory. Fixtures defined in a `conftest.py` can be used by any test in that package without needing to import them (pytest will automatically discover them).
 
