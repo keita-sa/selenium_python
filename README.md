@@ -6,7 +6,7 @@ The `conftest.py` file serves as a means of providing fixtures for an entire dir
 
 You can have multiple nested directories/packages containing your tests, and each directory can have its own `conftest.py` with its own fixtures, adding on to the ones provided by the `conftest.py` files in parent directories.
 
-[__parametrization__](https://docs.pytest.org/en/7.1.x/how-to/parametrize.html#pytest-mark-parametrize-parametrizing-test-functions)
+[__parametrization__](https://docs.pytest.org/en/7.1.x/how-to/parametrize.html#pytest-mark-parametrize-parametrizing-test-functions)\
 The builtin pytest.mark.parametrize decorator enables parametrization of arguments for a test function.
 
 
