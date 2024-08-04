@@ -3,7 +3,6 @@ import time
 import pytest
 from selenium.webdriver.common.by import By
 
-
 class TestNegativeScenarios:
 
     @pytest.mark.login
