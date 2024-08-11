@@ -37,6 +37,7 @@ class TestNegativeScenarios:
         error_message = error_message_locator.text
         assert error_message == expected_error_message, "Error message is not expected"
 
+"""
     def test_negative_username(self, driver):
         # Open page
         driver.get("https://practicetestautomation.com/practice-test-login/")
@@ -86,3 +87,4 @@ class TestNegativeScenarios:
         # Verify error message text is Your password is invalid!
         error_message = error_message_locator.text
         assert error_message == "Your password is invalid!", "Error message is not expected"
+"""
